@@ -1,0 +1,6 @@
+Inputs                               Expected Output   Actual Output
+(add (add (add 3 3) 3) 3) :                 12       :        12
+(multiply (add (multiply 3 3) 3) 3) :       36       :        36
+(multiply (add (multiply -2 3) 3) 3):       -9       :        -9
+(multiply (add (multiply 2 3) -3) 3):        9       :         9
+(multiply (add (multiply 2 0) -3) 3):       -9       :        -9
